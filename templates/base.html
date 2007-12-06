@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>{% block title %}Healing Circle Natural Health{% endblock %}</title>
+    {% block css %}<link rel="stylesheet" type="text/css" href="/media/css/base.css">{% endblock %}
+    {% block section_css %}{% endblock %}
+    {% block page_css %}{% endblock %}
+</head>
+<body>
+<div id="page">
+<div id="main">
+	{% block header %}
+	<div id="header">
+	  <img id="logo" src="/media/images/logo.gif" alt="Healing Circle Natural Health">
+	  <img id="banner" src="/media/images/banner.jpg" alt="Banner">
+	</div>
+	{% endblock %}
+	{% block sections %}
+	<div id="sections">
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="/help/">FAQ</a></li>
+	</ul>
+	</div>
+	{% endblock %}
+	{% block left_area %}
+	<div id="left_area">
+	  <div id="sidebar">
+	  {% block left_area_content %}
+	  {% endblock %}
+	  </div>
+	</div>
+	{% endblock %}
+	<div id="content">
+	{% block content %}
+	{% endblock %}
+	</div>
+
+	{% block footer %}
+	<div id="footer" width="400">
+		<p>Website code copyright 2007 EMLPrime.</p>
+	</div>
+	{% endblock %}
+</div>
+</div>
+</body>
+</html>

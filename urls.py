@@ -3,6 +3,7 @@ from healingcirclenaturalhealth.settings import MEDIA_ROOT
 
 urlpatterns = patterns('django.views.generic.simple',
     (r'^$', 'direct_to_template', {'template': 'home.html'}),
+    (r'^services/$', 'direct_to_template', {'template': 'services.html'}),
     (r'^help/$', 'direct_to_template', {'template': 'help.html'}),
 )
 

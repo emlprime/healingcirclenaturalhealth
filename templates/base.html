@@ -9,39 +9,27 @@
 <body>
 <div id="page">
 <div id="main">
-	{% block header %}
 	<div id="header">
-	  <img id="logo" src="/media/images/logo.gif" alt="Healing Circle Natural Health">
-	  <img id="banner" src="/media/images/banner.jpg" alt="Banner">
+	<h1>HEALING CIRCLE NATURAL HEALTH</h1>
 	</div>
-	{% endblock %}
-	{% block sections %}
-	<div id="sections">
+	<div id="frame">
+	<div id="navigation">
+	{% block navigation %}
 	<ul>
-		<li><a href="/">Home</a></li>
-		<li><a href="/help/">FAQ</a></li>
+	  <li><a href="/">Home</a></li>
+	  <li><a href="/services/">Services</a></li>
+	  <li><a href="/resume/">Resume</a></li>
+	  <li><a href="/intake/">Health Form</a></li>
 	</ul>
-	</div>
 	{% endblock %}
-	{% block left_area %}
-	<div id="left_area">
-	  <div id="sidebar">
-	  {% block left_area_content %}
-	  {% endblock %}
-	  </div>
 	</div>
-	{% endblock %}
 	<div id="content">
 	{% block content %}
 	{% endblock %}
 	</div>
-
-	{% block footer %}
-	<div id="footer" width="400">
-		<p>Website code copyright 2007 EMLPrime.</p>
+	
 	</div>
-	{% endblock %}
 </div>
-</div>
+
 </body>
 </html>

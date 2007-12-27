@@ -60,6 +60,20 @@ right: 10px;
 position: absolute;
 font:bold 32px Georgia;
 }
+
+h1 {
+ font-size:                     21px;
+    font-weight:                    bold;
+ display:                           inline;
+}
+
+h2 {
+ font-size:                     18px;
+    font-weight:                    bold;
+    text-decoration:            underline;
+ display:                           inline;
+}
+
 #frame
 {
 background-color: #fff;
@@ -96,4 +110,45 @@ font-weight: bold;
 #content dd
 {
 margin-left: 10px;
+}
+
+#resume p {
+text-align: left;
+margin-bottom: 1em;
+}
+
+#resume p.description
+{
+text-indent: 1em;
+}
+
+#resume .header p {
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+#resume dd h2
+{
+font-size: 16px;
+margin: 0px;
+}
+
+#resume dd
+{
+text-align: left;
+margin-bottom: 1em;
+}
+
+#resume dt
+{
+text-align: left;
+margin-top: 1em;
+font-size: 20px;
+font-weight: bold;
+}
+
+#resume li
+{
+text-align: left;
 }

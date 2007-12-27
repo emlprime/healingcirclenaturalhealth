@@ -12,6 +12,7 @@ body {
 
 #navigation
 {
+position: relative;
 float: right;
 margin: 1em;
 background-color: #3f3980;
@@ -62,13 +63,14 @@ font:bold 32px Georgia;
 #frame
 {
 background-color: #fff;
+position: relative;				
 }
 #content
 {
 position: relative;
 background:transparent url("/media/images/banner.png") no-repeat top left;
 padding: 20px 80px;
-width: 550px;
+width: 500px;
 }
 
 #content h3

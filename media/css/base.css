@@ -4,7 +4,7 @@
 	}
 body {
 	background-attachment:fixed;
-	background-color: #edebf4;
+	background: #edebf4 url("/media/images/background.png") no-repeat top left;
 	padding:14px 20px 0 73px;
 	margin:0;
 	font:normal 15px/18px verdana;
@@ -48,7 +48,7 @@ position: relative;
 
 #header
 {
-background:transparent url("/media/images/logo.png") no-repeat top left;
+background: #edebf4 url("/media/images/logo.png") no-repeat top left;
 height: 130px;
 position: relative;
 }
@@ -59,6 +59,7 @@ top: 55px;
 right: 10px;
 position: absolute;
 font:bold 32px Georgia;
+color: blue;
 }
 
 h1 {
@@ -74,10 +75,18 @@ h2 {
  display:                           inline;
 }
 
+.header h1
+{
+margin: auto;
+text-align: center;
+display: block;
+width: 80%;
+}
+
 #frame
 {
 background-color: #fff;
-position: relative;				
+position: relative;
 }
 #content
 {
@@ -85,12 +94,17 @@ position: relative;
 background:transparent url("/media/images/banner.png") no-repeat top left;
 padding: 20px 80px;
 width: 500px;
+min-height: 600px;
+height: 600px;
 }
 
 #content h3
 {
 color: #3f3980;
 background-color: #fff;
+font-size: 1.3em;
+margin-bottom: .3em;
+border-bottom: 3px solid blue;
 }
 #content div.section
 {
@@ -151,4 +165,44 @@ font-weight: bold;
 #resume li
 {
 text-align: left;
+}
+
+#services ul
+{
+list-style-type: none;
+position: relative;
+}
+#services li
+{
+outline: 3px solid blue;
+padding: .6em;
+margin: 10px 0px;
+position: relative;
+clear: left;
+}
+
+#services
+{
+font-size: 1.2em;
+}
+
+img.product_image
+{
+float: left;
+margin: 0px 10px 10px 0px;
+}
+
+div.clear_float
+{
+clear: both;
+}
+
+#intake
+{
+font-size: 1.2em;
+}
+
+#resume .misc, #resume .misc p
+{
+text-align: center;
 }

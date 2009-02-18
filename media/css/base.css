@@ -205,3 +205,26 @@ font-size: 1.2em;
 {
 text-align: center;
 }
+
+#dvd_header
+{
+margin-left: 120px;
+margin-bottom: 1em;
+}
+
+#dvd_info
+{
+text-align: center;
+margin-left: 50px;
+}
+
+#behind_the_scenes
+{
+text-align: center;
+margin-left: 50px;
+}
+
+#behind_the_scenes img
+{
+margin: .5em;
+}

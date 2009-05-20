@@ -218,6 +218,15 @@ text-align: center;
 margin-left: 50px;
 }
 
+#review a{
+ color:black;
+}
+
+#review{
+ margin-left: 50px; 
+ margin:3em;
+}
+
 #behind_the_scenes
 {
 text-align: center;

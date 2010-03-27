@@ -4,7 +4,7 @@
 	}
 body {
 	background-attachment:fixed;
-	background: #edebf4 url("/media/images/background.png") no-repeat top left;
+	background: #edebf4 url("/site_media/images/background.png") no-repeat top left;
 	padding:14px 20px 0 73px;
 	margin:0;
 	font:normal 15px/18px verdana;
@@ -48,7 +48,7 @@ position: relative;
 
 #header
 {
-background: #edebf4 url("/media/images/logo.png") no-repeat top left;
+background: #edebf4 url("/site_media/images/logo.png") no-repeat top left;
 height: 130px;
 position: relative;
 }
@@ -91,7 +91,7 @@ position: relative;
 #content
 {
 position: relative;
-background:transparent url("/media/images/banner.png") no-repeat top left;
+background:transparent url("/site_media/images/banner.png") no-repeat top left;
 padding: 20px 80px;
 width: 500px;
 min-height: 600px;
